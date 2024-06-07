@@ -1,0 +1,17 @@
+{
+  "extends": "plugin:bpmn-io/browser",
+  "overrides": [
+    {
+      "extends": "plugin:bpmn-io/mocha",
+      "files": [
+        "test.js"
+      ]
+    },
+    {
+      "extends": "plugin:bpmn-io/node",
+      "files": [
+        "karma.conf.cjs"
+      ]
+    }
+  ]
+}
